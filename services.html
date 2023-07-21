@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Services provided by me</title>
+    </head>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+        *
+        {
+            margin: 0;
+            padding: 0;
+            transition: 0.3s;
+            font-family: 'Montserrat', sans-serif;
+        }
+        body{
+            width: 100%;
+            height: 95%;
+            background: white;
+            overflow: hidden;
+            text-align: center;
+        }
+        h5{
+            margin-top: 100px;
+            margin-left: 100px;
+            color: purple;
+            letter-spacing: 1.5px;
+            font-size: 50px;
+            font-style: italic;
+        }
+        h1{
+            font-size: 60px;
+            color: black;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 50px;
+        }
+        .container1{
+            width: 100%;
+            min-height: 100%;
+            margin: 0 auto;
+            padding: 0 10px;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        .box{
+            width: 70%;
+            height: 100%;
+            padding: 50px;
+            overflow: hidden;
+            border-radius: 14px;
+            background: linear-gradient(145deg, #e6e6e6, #ffffff);
+            box-shadow: 8px 8px 16px #d1d1d1,
+                        -8px -8px 16px #ffffff;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-right: 40px;
+            margin-right: 40px;
+            text-align: center;
+        }
+        .box:hover{
+            background: linear-gradient(145deg, purple, #ff3366);
+            box-shadow: 8px 8px 16px #d1d1d1,
+                        -8px -8px 16px #ffffff;
+        }
+        .icons{
+            font-size: 50px;
+            color: plum;
+            margin-top: 10px;
+        }
+        .box:hover .icons{
+            margin-top: 0px;
+            color: #fff;
+        }
+        .box h2{
+            font-weight: 500;
+            margin-top: 25px;
+        }
+        .box:hover h2{
+            color: #fff
+        }
+        .box p{
+            color: grey;
+            font-weight: 400;
+            margin-top: 25px;
+        }
+        .box:hover p{
+            color: #fff
+        }
+        .arrow{
+            font-size: 30px;
+            color: #ff3366;
+            margin-top: 40px;
+            display: none;
+        }
+        .box:hover .arrow{
+            color: #fff;
+            margin-top: 30px;
+            display: block;
+        }
+        .nav{
+            display: flex;
+            width: 100%;
+            height: 80px;
+            z-index: 111;
+        }
+        .logo{
+            display: flex;
+            font-size: 40px;
+            font-weight: 800;
+            color: #3d535f;
+            letter-spacing: 3px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        b{
+            font-size: 70px;
+            color: purple;
+        }
+        .navItems{
+            display: flex;
+        }
+        .navItems li{
+            list-style: none;
+            margin: 0 15px;
+        }
+        .navItems li a{
+            font-size: 25px;
+            color: purple;
+            letter-spacing: 3px;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+        .navItems li:hover a,
+        .links a:hover{
+            color: purple;
+        }
+        .links a{
+            font-size: 30px;
+            color: #3d535f;
+            margin: 25px 10px;
+        }
+    </style>
+     <div class="container1">
+        <nav>
+            <div class="logo">folio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href = 'main.html'>Home Page</a></li>
+                <li><a href = 'skills.html'>Skills</a></li>
+                <li><a href = '#'>Services</a></li>
+                <li><a href = '#'>Projects</a></li>
+                <li><a href = '#'>Contacts</a></li>
+            </ul>
+    <body>
+        <h5>Services</h5>
+        <h1>'Tricks up my sleeve'</h1>
+        <div class="container">
+            <div class="box">
+                <icon-icon class="icons" name="menu-outline"></icon-icon>
+                <h2>Data Warehousing</h2>
+                <p>Ability to use raw or transactional, messy, disorganized data and utilizing SQL programming language to create a central data storage and with clean organizaed data that can be used for further data analytics and visualizations</p>
+                <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="box">
+                <icon-icon class="icons" name="book-outline"></icon-icon>
+                <h2>Data Analytics</h2>
+                <p>Utilizing clean, organized data from SQL data warehouse to extract insights and patterns from data using python or R prgramming languages that can be used to make data-driven decisions and predictions</p>
+                <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="box">
+                <icon-icon class="icons" name="icons" name="tv-outline"></icon-icon>
+                <h2>Data Visualizations</h2>
+                <p>Utilizing an organization's meta data to create graphs and give a look and feel to data to understand trands and patterns in data, making data easier to understand and more visually pleasing to look at.</p>
+                <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="box">
+                <icon-icon class="icons" name="menu-outline"></icon-icon>
+                <h2>Web/App Development</h2>
+                <p>Using python, CSS and HTML to design and create responsive, unique and user friendly websites and apps</p>
+                <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon>
+            </div>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

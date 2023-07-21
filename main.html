@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html long="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" a href="main.css">
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="logo">folio<b>.</b></div>
+                <ul class="navItems">
+                    <li><a href = 'main.html'>Home Page</a></li>
+                    <li><a href = 'skills.html'>Skills</a></li>
+                    <li><a href = 'services.html'>Services</a></li>
+                    <li><a href = 'projects.html'>Projects</a></li>
+                    <li><a href = '#'>Contacts</a></li>
+                </ul>
+                <div class="links">
+                    <a href="image1.jpeg"><i class="fa fa-instagram"></i></a>
+                    <a href="image0.jpeg"><i class="fa fa-linkedin"></i></a>
+                    <a href="image2.jpeg"><i class="fa fa-whatsapp"></i></a>
+                </div>
+            </nav>
+            <div class="wrapper">
+                <div class="cols cols0">
+                    <h1>I'm <span class="multiText"></span></h1>
+                    <p>currently a Business Intelligence and Data Analytics student aspiring to be a freelance Web/App Developer and BI Consultant</p>
+                    <div class="btns">
+                        <button><a href="CV.pdf">download CV</a></button>
+                        <button>talk to me</button>
+                    </div>
+                    <div class="cols cols1">
+                        <div class="imgbox">
+                            
+                            <img src="image5.jpeg" id="User">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <script>
+            var typingEffect = new Typed(".multiText",{
+                strings : ["Natasha Mpete", "a BI Consultant", "a Data Analyst", "a Website Developer"],
+                loop : true,
+                typeSpeed : 80,
+                backSpeed : 80,
+                backDelay : 1500
+            })
+            </script>
+        </body>
+        </html>
